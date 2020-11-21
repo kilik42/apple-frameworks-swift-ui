@@ -15,16 +15,22 @@ struct FrameworkGridView: View {
     
     
     var body: some View {
-        LazyVGrid(columns:columns){
+        
+        NavigationView {
             
-            ForEach(MockData.frameworks, id: \.id){
-                framework in
-                FrameworkTitleView(framework: framework)
-            }
-            
-           
-            
+                ScrollView {
+                    LazyVGrid(columns:columns){
+                    ForEach(MockData.frameworks, id: \.id){
+                        framework in
+                        FrameworkTitleView(framework: framework)
+                    }
+     
+                }
+                }.navigationTitle("😃 Frameworks")
+                
+             
         }
+        
        
     }
 }
