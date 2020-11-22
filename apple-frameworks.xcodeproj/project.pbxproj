@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103D602F2569FFDB0095E154 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D602E2569FFDB0095E154 /* AFButton.swift */; };
 		109E576E2566A69F004D80F3 /* apple_frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E576D2566A69F004D80F3 /* apple_frameworksApp.swift */; };
 		109E57722566A6A0004D80F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E57712566A6A0004D80F3 /* Assets.xcassets */; };
 		109E57752566A6A0004D80F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E57742566A6A0004D80F3 /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103D602E2569FFDB0095E154 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		109E576A2566A69F004D80F3 /* apple-frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		109E576D2566A69F004D80F3 /* apple_frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_frameworksApp.swift; sourceTree = "<group>"; };
 		109E57712566A6A0004D80F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				109E577D2567F404004D80F3 /* Framework.swift */,
 				10F26DF6256942D200A198D8 /* FrameworkGridView.swift */,
 				10F26DF92569C70400A198D8 /* FrameworkDetailView.swift */,
+				103D602E2569FFDB0095E154 /* AFButton.swift */,
 				109E57712566A6A0004D80F3 /* Assets.xcassets */,
 				109E57762566A6A0004D80F3 /* Info.plist */,
 				109E57732566A6A0004D80F3 /* Preview Content */,
@@ -147,6 +150,7 @@
 				10F26DFA2569C70400A198D8 /* FrameworkDetailView.swift in Sources */,
 				10F26DF7256942D200A198D8 /* FrameworkGridView.swift in Sources */,
 				109E577E2567F404004D80F3 /* Framework.swift in Sources */,
+				103D602F2569FFDB0095E154 /* AFButton.swift in Sources */,
 				109E576E2566A69F004D80F3 /* apple_frameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
