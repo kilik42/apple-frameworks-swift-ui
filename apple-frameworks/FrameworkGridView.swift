@@ -23,6 +23,9 @@ struct FrameworkGridView: View {
                     ForEach(MockData.frameworks, id: \.id){
                         framework in
                         FrameworkTitleView(framework: framework)
+                            .onTapGesture {
+                                print("")
+                            }
                     }
      
                 }
