@@ -33,7 +33,7 @@ struct FrameworkGridView: View {
                 }
                 }.navigationTitle("😃 Frameworks")
                 .sheet(isPresented: $viewModel.isShowingDetailView, content: {
-                    FrameworkDetailView(framework: viewModel.selectedFramework!)
+                    FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework)
                 })
                 
              
